@@ -1,0 +1,14 @@
+.container {
+  max-width: 192rem;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 81.25em) {
+.container{
+  /* max-width: ;  */
+}
+}
+@media only screen and (max-width: 37.5em) {
+  .container {
+    max-width: 75rem;
+  }
+}

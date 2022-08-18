@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import 'container.css';
+@import 'typography.css';
+@import 'buttons.css';
+@import 'carousels.css';
+@import 'header.css';
+@import 'navigation.css';
+@import 'products.css';
+@import 'footer.css';
+@import './home/sections.css';
+:root {
+  --color-primary:#1C1C1E;
+  --color-primary-light:#2C2C2E;
+  --color-primary-dark:#000;
+  --color-secondary:#f3f3f5;
+  --color-secondary-light:#fff;
+  --color-tertiary:#111111;
+  --font-heading: 'Gilroy-ExtraBold', sans-serif;
+  --font-body: 'Gilroy-Light', sans-serif;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%; 
+}
+@font-face {
+  font-family: 'Gilroy-Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gilroy-Light'), url('../Gilroy-FREE/Gilroy-FREE/Gilroy-Light.otf') format('truetype');
+}
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gilroy-ExtraBold'), url('../Gilroy-FREE/Gilroy-FREE/Gilroy-ExtraBold.otf') format('truetype');
+}
+body {
+  font-family: var(--font-body);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+@media only screen and (max-width: 81.25em) {
+  html {
+    font-size: 50%;
+  }
+}
