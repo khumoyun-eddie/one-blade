@@ -16,6 +16,7 @@
 .heading-2 {
   font-size: 3.2rem;
   letter-spacing: 0.16em;
+  line-height: 40px;
 }
 .heading-2--light{
   color: var(--color-secondary-light);

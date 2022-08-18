@@ -9,6 +9,7 @@
 @import 'products.css';
 @import 'footer.css';
 @import './home/sections.css';
+@import './plp/sections.css';
 :root {
   --color-primary:#1C1C1E;
   --color-primary-light:#2C2C2E;
