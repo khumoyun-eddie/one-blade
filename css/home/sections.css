@@ -48,6 +48,9 @@
   flex-direction: column;
   padding: 20rem 13.5rem;
 }
+.cta__content--light{
+  background-color: var(--color-primary-light);
+}
 .cta__text {
   margin-top: 2.4rem;
   margin-bottom: 4rem;

@@ -1,0 +1,677 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <title>One Blade - Products List Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="newsletter">
+        <p class="newsletter__content">
+          Check out our Holiday Sale! Click here to shop now
+        </p>
+        <div class="newsletter__control">X</div>
+      </div>
+      <header class="header">
+        <nav class="navigation">
+          <div class="navigation__mobile-menu">
+            <img src="assets/icons/hamburger.svg" alt="" />
+          </div>
+          <img src="assets/logo.svg" class="navigation__icon" alt="" />
+          <ul class="navigation__list">
+            <li class="navigation__item">Razors</li>
+            <li class="navigation__item">Shaving Supplies</li>
+            <li class="navigation__item">Gifts</li>
+            <li class="navigation__item">The Story</li>
+            <li class="navigation__item">The Difference</li>
+            <li class="navigation__item">More</li>
+          </ul>
+          <div class="navigation__user">
+            <img
+              src="assets/icons/avatar.svg"
+              class="navigation__icon"
+              alt=""
+            />
+            <img src="assets/icons/cart.svg" class="navigation__icon" alt="" />
+          </div>
+        </nav>
+        <div class="header__content header__content--sm">
+          <div class="header__cta header__cta--bg">
+            <h2 class="heading-text heading-2">
+              Lorem ipsum dolor sit amet, consectetur
+            </h2>
+            <p class="header__text">Sed ut perspiciatis unde</p>
+          </div>
+          <div class="header__banner">
+            <img
+              src="assets/Image side.jpg"
+              alt=""
+              class="header__banner-img"
+            />
+          </div>
+        </div>
+      </header>
+      <section class="allProducts">
+        <h3 class="heading-text heading-3">All products</h3>
+        <div class="allProducts__tabs">
+          <p>Category</p>
+          <h4 class="heading-text heading-4">razors</h4>
+          <h4 class="heading-text heading-4">skincare</h4>
+          <h4 class="heading-text heading-4">other</h4>
+        </div>
+        <div class="products">
+          <div class="products__category">
+            <h4 class="heading-text heading-4">razors</h4>
+          </div>
+          <div class="products__card products__card--small">
+            <div class="products__card-header">
+              <img src="assets/product.png" alt="" class="products__card-img" />
+            </div>
+            <div class="products__card-content">
+              <div class="products__card-options">
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-1"
+                    id="color"
+                    class="radio-input"
+                    checked
+                  />
+                  <label for="color">
+                    <img
+                      src="assets/icons/color 1.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-1"
+                    id="color2"
+                    class="radio-input"
+                    disabled
+                  />
+                  <label for="color2">
+                    <img
+                      src="assets/icons/color 2.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-1"
+                    id="color3"
+                    class="radio-input"
+                  />
+                  <label for="color3">
+                    <img
+                      src="assets/icons/color 3.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+              </div>
+              <div class="products__card-title">
+                <h4 class="heading-text heading-4">Product title</h4>
+              </div>
+              <div class="products__card-prices">
+                From
+                <span
+                  class="products__card-price products__card-price--current"
+                >
+                  $99.00
+                </span>
+                <span
+                  class="products__card-price products__card-price--original"
+                >
+                  $150.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="products__card products__card--small">
+            <div class="products__card-header">
+              <img src="assets/product.png" alt="" class="products__card-img" />
+            </div>
+            <div class="products__card-content">
+              <div class="products__card-options">
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-2"
+                    id="color-group-2-1"
+                    class="radio-input"
+                    checked
+                  />
+                  <label for="color-group-2-1">
+                    <img
+                      src="assets/icons/color 1.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-2"
+                    id="color-group-2-2"
+                    class="radio-input"
+                    disabled
+                  />
+                  <label for="color-group-2-2">
+                    <img
+                      src="assets/icons/color 2.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-2"
+                    id="color-group-2-3"
+                    class="radio-input"
+                  />
+                  <label for="color-group-2-3">
+                    <img
+                      src="assets/icons/color 3.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+              </div>
+              <div class="products__card-title">
+                <h4 class="heading-text heading-4">Hybrid Razor</h4>
+              </div>
+              <div class="products__card-prices">
+                From
+                <span
+                  class="products__card-price products__card-price--current"
+                >
+                  $99.00
+                </span>
+                <span
+                  class="products__card-price products__card-price--original"
+                >
+                  $150.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="products__card products__card--small">
+            <div class="products__card-header">
+              <img src="assets/product.png" alt="" class="products__card-img" />
+            </div>
+            <div class="products__card-content">
+              <div class="products__card-options">
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-3"
+                    id="color-group-3"
+                    class="radio-input"
+                    checked
+                  />
+                  <label for="color-group-3">
+                    <img
+                      src="assets/icons/color 3.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+              </div>
+              <div class="products__card-title">
+                <h4 class="heading-text heading-4">Core Razor</h4>
+              </div>
+              <div class="products__card-prices">
+                From
+                <span
+                  class="products__card-price products__card-price--current"
+                >
+                  $150.00
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="products">
+          <div class="products__category">
+            <h4 class="heading-text heading-4">skincare</h4>
+          </div>
+          <div class="products__card products__card--small">
+            <div class="products__card-header">
+              <img src="assets/product.png" alt="" class="products__card-img" />
+            </div>
+            <div class="products__card-content">
+              <div class="products__card-options">
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-1"
+                    id="color"
+                    class="radio-input"
+                    checked
+                  />
+                  <label for="color">
+                    <img
+                      src="assets/icons/color 1.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-1"
+                    id="color2"
+                    class="radio-input"
+                    disabled
+                  />
+                  <label for="color2">
+                    <img
+                      src="assets/icons/color 2.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-1"
+                    id="color3"
+                    class="radio-input"
+                  />
+                  <label for="color3">
+                    <img
+                      src="assets/icons/color 3.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+              </div>
+              <div class="products__card-title">
+                <h4 class="heading-text heading-4">Product title</h4>
+              </div>
+              <div class="products__card-prices">
+                From
+                <span
+                  class="products__card-price products__card-price--current"
+                >
+                  $99.00
+                </span>
+                <span
+                  class="products__card-price products__card-price--original"
+                >
+                  $150.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="products__card products__card--small">
+            <div class="products__card-header">
+              <img src="assets/product.png" alt="" class="products__card-img" />
+            </div>
+            <div class="products__card-content">
+              <div class="products__card-options">
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-2"
+                    id="color-group-2-1"
+                    class="radio-input"
+                    checked
+                  />
+                  <label for="color-group-2-1">
+                    <img
+                      src="assets/icons/color 1.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-2"
+                    id="color-group-2-2"
+                    class="radio-input"
+                    disabled
+                  />
+                  <label for="color-group-2-2">
+                    <img
+                      src="assets/icons/color 2.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-2"
+                    id="color-group-2-3"
+                    class="radio-input"
+                  />
+                  <label for="color-group-2-3">
+                    <img
+                      src="assets/icons/color 3.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+              </div>
+              <div class="products__card-title">
+                <h4 class="heading-text heading-4">Hybrid Razor</h4>
+              </div>
+              <div class="products__card-prices">
+                From
+                <span
+                  class="products__card-price products__card-price--current"
+                >
+                  $99.00
+                </span>
+                <span
+                  class="products__card-price products__card-price--original"
+                >
+                  $150.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="products__card products__card--small">
+            <div class="products__card-header">
+              <img src="assets/product.png" alt="" class="products__card-img" />
+            </div>
+            <div class="products__card-content">
+              <div class="products__card-options">
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-3"
+                    id="color-group-3"
+                    class="radio-input"
+                    checked
+                  />
+                  <label for="color-group-3">
+                    <img
+                      src="assets/icons/color 3.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+              </div>
+              <div class="products__card-title">
+                <h4 class="heading-text heading-4">Core Razor</h4>
+              </div>
+              <div class="products__card-prices">
+                From
+                <span
+                  class="products__card-price products__card-price--current"
+                >
+                  $150.00
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="products">
+          <div class="products__category">
+            <h4 class="heading-text heading-4">Accessories</h4>
+          </div>
+          <div class="products__card products__card--small">
+            <div class="products__card-header">
+              <img src="assets/product.png" alt="" class="products__card-img" />
+            </div>
+            <div class="products__card-content">
+              <div class="products__card-options">
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-1"
+                    id="color"
+                    class="radio-input"
+                    checked
+                  />
+                  <label for="color">
+                    <img
+                      src="assets/icons/color 1.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-1"
+                    id="color2"
+                    class="radio-input"
+                    disabled
+                  />
+                  <label for="color2">
+                    <img
+                      src="assets/icons/color 2.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-1"
+                    id="color3"
+                    class="radio-input"
+                  />
+                  <label for="color3">
+                    <img
+                      src="assets/icons/color 3.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+              </div>
+              <div class="products__card-title">
+                <h4 class="heading-text heading-4">Product title</h4>
+              </div>
+              <div class="products__card-prices">
+                From
+                <span
+                  class="products__card-price products__card-price--current"
+                >
+                  $99.00
+                </span>
+                <span
+                  class="products__card-price products__card-price--original"
+                >
+                  $150.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="products__card products__card--small">
+            <div class="products__card-header">
+              <img src="assets/product.png" alt="" class="products__card-img" />
+            </div>
+            <div class="products__card-content">
+              <div class="products__card-options">
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-2"
+                    id="color-group-2-1"
+                    class="radio-input"
+                    checked
+                  />
+                  <label for="color-group-2-1">
+                    <img
+                      src="assets/icons/color 1.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-2"
+                    id="color-group-2-2"
+                    class="radio-input"
+                    disabled
+                  />
+                  <label for="color-group-2-2">
+                    <img
+                      src="assets/icons/color 2.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-2"
+                    id="color-group-2-3"
+                    class="radio-input"
+                  />
+                  <label for="color-group-2-3">
+                    <img
+                      src="assets/icons/color 3.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+              </div>
+              <div class="products__card-title">
+                <h4 class="heading-text heading-4">Hybrid Razor</h4>
+              </div>
+              <div class="products__card-prices">
+                From
+                <span
+                  class="products__card-price products__card-price--current"
+                >
+                  $99.00
+                </span>
+                <span
+                  class="products__card-price products__card-price--original"
+                >
+                  $150.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="products__card products__card--small">
+            <div class="products__card-header">
+              <img src="assets/product.png" alt="" class="products__card-img" />
+            </div>
+            <div class="products__card-content">
+              <div class="products__card-options">
+                <div class="products__card-option">
+                  <input
+                    type="radio"
+                    name="color-group-3"
+                    id="color-group-3"
+                    class="radio-input"
+                    checked
+                  />
+                  <label for="color-group-3">
+                    <img
+                      src="assets/icons/color 3.svg"
+                      alt=""
+                      class="products__card-icon"
+                    />
+                  </label>
+                </div>
+              </div>
+              <div class="products__card-title">
+                <h4 class="heading-text heading-4">Core Razor</h4>
+              </div>
+              <div class="products__card-prices">
+                From
+                <span
+                  class="products__card-price products__card-price--current"
+                >
+                  $150.00
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cta">
+        <div class="cta__banner">
+          <img src="assets/3razors.jpg" class="cta__img" alt="" />
+        </div>
+        <div class="cta__content cta__content--light">
+          <h2 class="heading-text heading-2 heading-2--light">
+            Lorem ipsum dolor sit amet
+          </h2>
+          <p class="cta__text">
+            Sed ut perspiciatis unde omnis iste natus error sit
+          </p>
+          <a href="#" class="btn">find us on social</a>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__socials">
+          <img
+            src="assets/icons/socials/icon-1.svg"
+            class="footer__icon"
+            alt=""
+          />
+          <img
+            src="assets/icons/socials/icon.svg"
+            class="footer__icon"
+            alt=""
+          />
+          <img
+            src="assets/icons/socials/icon-4.svg"
+            class="footer__icon"
+            alt=""
+          />
+        </div>
+        <div class="footer__contact">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="footer__input"
+            placeholder="Write your email ..."
+          />
+          <label for="email">
+            <a href="#" class="btn btn--small btn--light">Join the family</a>
+          </label>
+        </div>
+        <p class="footer__text">
+          The only way to discover exclusive deals, new product launches and
+          more
+        </p>
+        <img src="assets/icons/gift-box.svg" alt="" class="footer__icon-gift" />
+      </footer>
+    </div>
+  </body>
+</html>

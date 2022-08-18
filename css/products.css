@@ -5,6 +5,9 @@
   flex-wrap: wrap;
   padding: 5.2rem 8rem;
 }
+.products__category{
+  width: 100%;
+}
 .products__card {
   width: 30%;
   display: flex;
