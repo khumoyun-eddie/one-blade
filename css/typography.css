@@ -41,6 +41,12 @@
 .text-light{
   color: var(--color-secondary-light);
 }
+.text-bold{
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  line-height: 24px;
+
+}
 @media only screen and (max-width: 37.5em) {
   .heading-1{
     font-size: 3.5rem;
