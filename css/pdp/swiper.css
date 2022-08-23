@@ -21,17 +21,21 @@
 .swiper-slide img {
   /* display: block; */
   width: 100%;
-
-
 }
-.swiper-button-next, .swiper-button-prev{
-    display: none;
+.swiper-button-prev::after {
+  content: '' !important;
 }
 
+.swiper-button-next::after {
+  content: '' !important;
+}
 
 @media only screen and (max-width: 37.5em) {
-    .swiper-button-next, .swiper-button-prev{
-        display: inline-block;
-    }
-    
+  .swiper-button-prev::after {
+    content: url(../../assets/icons/arrowL.svg) !important;
+  }
+
+  .swiper-button-next::after {
+    content: url(../../assets/icons/arrowR.svg) !important;
+  }
 }

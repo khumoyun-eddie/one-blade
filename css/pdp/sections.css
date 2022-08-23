@@ -200,6 +200,12 @@
   .pagination {
     display: inline;
   }
+  .swiper-pagination-progressbar{
+    top: 1rem !important;
+  }
+  .swiper-pagination-progressbar span{
+    background: var(--color-primary-dark) !important;
+  }
   .details__delivery-list {
     flex-wrap: wrap;
     row-gap: 1rem;

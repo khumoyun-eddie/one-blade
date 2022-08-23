@@ -83,7 +83,7 @@
 }
 
 .disposals__content {
-  grid-column: 1/7;
+  grid-column: 1/6;
   grid-row: 1/2;
   align-self: center;
   background-color: var(--color-secondary-light);
@@ -97,7 +97,7 @@
   margin-top: 2.4rem;
 }
 .disposals__banner {
-  grid-column: 6/-1;
+  grid-column: 5/-1;
   grid-row: 1/2;
 }
 .disposals__img {
@@ -194,7 +194,7 @@
   .trial__content{
     flex-direction: column;
     row-gap: 5rem;
-    padding: 8rem
+  
   }
   .trial__card{
     padding-bottom: 5rem;

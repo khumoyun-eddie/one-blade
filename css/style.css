@@ -22,21 +22,21 @@
   --color-tertiary:#111111;
   --color-option-1:#997F72;
   --color-option-2:#404042;
-  --font-heading: 'Gilroy-ExtraBold', sans-serif;
-  --font-body: 'Gilroy-Light', sans-serif;
+  --font-heading: 'Gilroy-Bold', sans-serif;
+  --font-body: 'Gilroy-Regular', sans-serif;
 }
 
 @font-face {
-  font-family: 'Gilroy-Light';
+  font-family: 'Gilroy-Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Gilroy-Light'), url('../Gilroy-FREE/Gilroy-FREE/Gilroy-Light.otf') format('truetype');
+  src: local('Gilroy-Regular'), url('../Gilroy-FREE/Gilroy-FREE/Gilroy-Regular.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'Gilroy-ExtraBold';
+  font-family: 'Gilroy-Bold';
   font-style: normal;
   font-weight: normal;
-  src: local('Gilroy-ExtraBold'), url('../Gilroy-FREE/Gilroy-FREE/Gilroy-ExtraBold.otf') format('truetype');
+  src: local('Gilroy-Bold'), url('../Gilroy-FREE/Gilroy-FREE/Gilroy-Bold.ttf') format('truetype');
 }
 
 *,
