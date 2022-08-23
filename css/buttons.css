@@ -28,3 +28,15 @@
 .btn:hover {
   color: var(--color-primary-light);
 }
+
+.btn--cart{
+  width: 100%;
+ display: inline-block;
+ text-align: center;
+ background-color: var(--color-secondary-dark);
+ border-radius: 0;
+}
+.btn--cart:hover{
+  background-color: var(--color-primary-dark);
+  color: var(--color-secondary-light);
+}
