@@ -11,6 +11,12 @@
   background-color: var(--color-tertiary);
   color: var(--color-secondary-light);
 }
+.btn--lg{
+ display: inline-block;
+ padding: 2rem 0;
+ text-align: center;
+ width: 100%;
+}
 .btn--small{
   padding: 1.4rem 3rem;
 }
